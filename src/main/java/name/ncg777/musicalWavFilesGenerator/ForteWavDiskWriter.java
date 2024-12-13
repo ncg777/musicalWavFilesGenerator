@@ -49,7 +49,7 @@ public class ForteWavDiskWriter {
     
     public static void generateForteWavs() {
 	try {
-            File mainDir = new File("./Forte Numbers");
+            File mainDir = new File("./Wavs/Forte Numbers");
             if(!mainDir.exists())
         	mainDir.mkdir();
             

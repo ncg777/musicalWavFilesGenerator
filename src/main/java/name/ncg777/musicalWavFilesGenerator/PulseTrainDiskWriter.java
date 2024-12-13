@@ -70,7 +70,7 @@ public class PulseTrainDiskWriter {
     
     public static void generateWalshRhythms() {
 	try {
-            File mainDir = new File("./Walsh rhythms");
+            File mainDir = new File("./Wavs/Walsh rhythms");
             if(!mainDir.exists())
         	mainDir.mkdir();
             for(int i=1;i<9;i++) {
